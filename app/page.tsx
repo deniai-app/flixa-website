@@ -12,6 +12,7 @@ import {
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { SiGoogle, SiWindsurf } from "@icons-pack/react-simple-icons";
+import Icon from "@/components/icon";
 
 function FeatureCard({
   icon: Icon,
@@ -72,7 +73,7 @@ export default function FlixaPage() {
         <div className="mx-auto max-w-6xl flex items-center justify-between px-4 h-14">
           <Link href="/" className="flex items-center gap-2">
             <div className="flex items-center justify-center w-7 h-7 rounded-md bg-foreground text-background font-bold text-sm">
-              F
+              <Icon />
             </div>
             <span className="font-semibold text-sm">Flixa</span>
           </Link>
@@ -367,7 +368,7 @@ export default function FlixaPage() {
         <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
             <div className="flex items-center justify-center w-5 h-5 rounded bg-foreground text-background font-bold text-[10px]">
-              F
+              <Icon />
             </div>
             <span>Flixa by Deni AI</span>
           </div>
